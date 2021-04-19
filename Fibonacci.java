@@ -14,7 +14,7 @@ public class Fibonacci extends ConsoleProgram {
         while (x < n)
         {   
         	
-            System.out.print(x + "\n");
+            System.out.println(x);
 
             int fib = x + y;
             x = y;
